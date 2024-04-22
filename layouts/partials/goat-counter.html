@@ -1,0 +1,8 @@
+{{- if .Site.IsServer -}}
+  <!-- Don't add analytics to localhost -->
+{{ else if .Site.Params.goat_counter_code  }}
+    <script
+            data-goatcounter="https://{{ .Site.Params.goat_counter_code }}.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js">
+    </script>
+{{ end }}

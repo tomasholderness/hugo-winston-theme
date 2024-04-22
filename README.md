@@ -135,6 +135,16 @@ This is `data-domain` in your [tracking script code](https://plausible.io/docs/p
   plausible_analytics_domain = "example.com"
 ```
 
+### Goat Counter
+
+Add your goat counter code to the `config.toml`.
+
+```toml
+# config.toml
+[params]
+  goat_counter_code = "example"
+```
+
 # Deploying to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/hugo-winston-theme)
