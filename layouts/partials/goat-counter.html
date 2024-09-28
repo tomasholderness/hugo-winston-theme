@@ -1,4 +1,4 @@
-{{- if .Site.IsServer -}}
+{{- if hugo.IsServer -}}
   <!-- Don't add analytics to localhost -->
 {{ else if .Site.Params.goat_counter_code  }}
     <script
